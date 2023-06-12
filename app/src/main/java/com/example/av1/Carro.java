@@ -4,7 +4,7 @@ public class Carro extends Usuario {
 
     private static final double EFICIENCIA_INICIAL = 21.0;
     private static final double VELOCIDADE_INICIAL = 80.0;
-    private static final long TEMPO_CALCULO_VELOCIDADE = 60 * 1000; // 60 segundos
+    private static final long TEMPO_CALCULO_VELOCIDADE = 45; // 60 segundos
 
     public Carro() {
         super(EFICIENCIA_INICIAL);
